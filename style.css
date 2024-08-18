@@ -68,10 +68,11 @@ h1{
     }
     #logo{
         position: absolute;
-        padding-bottom: 50px;
+        padding-bottom: 35px;
+        height: 75px;
     }
     h1{
-        padding-top: 60px;
+        padding-top: 70px;
     }
 }
 
@@ -83,10 +84,11 @@ h1{
     }
     #logo{
         position: absolute;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
+        height: 75px;
     }
     h1{
-        padding-top: 60px;
+        padding-top: 70px;
         font-size: x-large;
     }
 }
