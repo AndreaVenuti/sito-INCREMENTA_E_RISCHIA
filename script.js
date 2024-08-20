@@ -18,4 +18,8 @@ function increment() {
     }
 }
 
+function istruzioni(){
+    alert('ISTRUZIONI: ogni volta che si clicca il bottone il numero aumenta. Quel numero corrisponde alla probabilità che se stesso si resetti. Vinci se arrivi a 100. Buona fortuna!')
+}
+
 alert('ISTRUZIONI: ogni volta che si clicca il bottone il numero aumenta. Quel numero corrisponde alla probabilità che se stesso si resetti. Vinci se arrivi a 100. Buona fortuna!')

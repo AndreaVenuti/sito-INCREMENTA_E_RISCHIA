@@ -42,53 +42,33 @@ button:active{
 header{
     height: 15%;
     display: flex;
-    text-align: center;
     align-items: center;
+    justify-content: space-between;
     background-color: grey;
     box-shadow: 1px 1px 10px 1px black;
+    padding: 0px 20px;
 }
 
-h1{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+#box-titolo h1{
+    margin: 0;
+    text-align: center;
 }
 
-#logo{
-    position: fixed;
+#box-logo img{
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-i, #istruzioni{
+    cursor: pointer;
 }
 
 /* schermi piccoli */
 @media screen and (max-width: 620px){
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #logo{
-        position: absolute;
-        padding-bottom: 35px;
-        height: 75px;
-    }
-    h1{
-        padding-top: 70px;
-    }
-}
-
-@media screen and (max-width: 435px){
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #logo{
-        position: absolute;
-        padding-bottom: 30px;
-        height: 75px;
-    }
-    h1{
-        padding-top: 70px;
-        font-size: x-large;
+    #box-titolo h1{
+        font-size: 25px;
+        padding: 0px 10px;
     }
 }
